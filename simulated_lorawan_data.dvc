@@ -1,0 +1,6 @@
+outs:
+- md5: 1c461149c6eeb4502e7852bd1f30e616.dir
+  size: 1051187499
+  nfiles: 4
+  hash: md5
+  path: simulated_lorawan_data
