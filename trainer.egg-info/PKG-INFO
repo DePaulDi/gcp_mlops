@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: trainer
+Version: 0.1
+Summary: LSTM Training Package
+Requires-Dist: pandas
+Requires-Dist: gcsfs
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Dynamic: requires-dist
+Dynamic: summary

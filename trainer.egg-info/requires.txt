@@ -1,0 +1,4 @@
+pandas
+gcsfs
+numpy
+scikit-learn

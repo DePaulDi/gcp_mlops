@@ -122,5 +122,6 @@ plt.show()
 
 # Save Model
 os.makedirs('model_artifacts', exist_ok=True)
-model.save('model_artifacts/crop_lstm_model.h5')
+# Save Model directly to GCS
+model.save('gs://your-project-ml-data/models/v1/crop_lstm_model.h5')
 print("[*] LSTM Model saved to model_artifacts/crop_lstm_model.h5")
