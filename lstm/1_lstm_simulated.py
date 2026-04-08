@@ -13,7 +13,8 @@ import gc
 # 1. DATA PREPARATION (WINDOWING)
 # ==========================================
 print("Loading and Preprocessing Sequence Data...")
-df = pd.read_csv('../simulated_lorawan_data/synthetic_lorawan_25_fields.csv')
+# df = pd.read_csv('../simulated_lorawan_data/synthetic_lorawan_25_fields.csv')
+df = pd.read_csv('gs://your-project-ml-data/synthetic_lorawan_25_fields.csv')
 
 # Memory optimization: Downcast to float32
 floats = df.select_dtypes(include=['float64']).columns
