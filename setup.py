@@ -1,3 +1,4 @@
+# setup.py
 from setuptools import find_packages
 from setuptools import setup
 
@@ -7,10 +8,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pandas',
-        'gcsfs',      # Required for pd.read_csv('gs://...')
-        'numpy',
-        'scikit-learn'
+        'scikit-learn',
+        'gcsfs'      # Required for pandas to read from gs://
     ],
-    include_package_data=True,
-    description='LSTM Training Package'
+    description='Crop Yield LSTM Training Package'
 )

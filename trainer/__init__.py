@@ -1,5 +1,5 @@
-# trainer/__init__.py
+# 1. Build the source distribution (creates a dist/ folder)
+python setup.py sdist --formats=gztar
 
-# This file can be empty. 
-# It signals to Python that 'trainer' is a package.
-__version__ = '0.1'
+# 2. Upload the created tarball to your GCS bucket
+gcloud storage cp dist/trainer-0.1.tar.gz gs://neuroagro1-gcp-mlops/

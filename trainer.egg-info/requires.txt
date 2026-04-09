@@ -1,4 +1,3 @@
 pandas
-gcsfs
-numpy
 scikit-learn
+gcsfs

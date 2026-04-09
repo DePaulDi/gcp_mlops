@@ -1,10 +1,9 @@
 Metadata-Version: 2.4
 Name: trainer
 Version: 0.1
-Summary: LSTM Training Package
+Summary: Crop Yield LSTM Training Package
 Requires-Dist: pandas
-Requires-Dist: gcsfs
-Requires-Dist: numpy
 Requires-Dist: scikit-learn
+Requires-Dist: gcsfs
 Dynamic: requires-dist
 Dynamic: summary
