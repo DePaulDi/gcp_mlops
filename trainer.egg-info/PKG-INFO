@@ -4,6 +4,6 @@ Version: 0.1
 Summary: Crop Yield LSTM Training Package
 Requires-Dist: pandas
 Requires-Dist: scikit-learn
-Requires-Dist: gcsfs
+Requires-Dist: gcsfspython-json-logger
 Dynamic: requires-dist
 Dynamic: summary

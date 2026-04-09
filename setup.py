@@ -9,7 +9,8 @@ setup(
     install_requires=[
         'pandas',
         'scikit-learn',
-        'gcsfs'      # Required for pandas to read from gs://
+        'gcsfs'  
+        'python-json-logger'  
     ],
     description='Crop Yield LSTM Training Package'
 )
