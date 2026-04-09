@@ -1,8 +1,8 @@
 setup.py
-trainer/__init__.py
-trainer/eval.py
-trainer/train.py
-trainer/train_old.py
+src_workfl/__init__.py
+src_workfl/eval.py
+src_workfl/train.py
+src_workfl/train_old.py
 trainer.egg-info/PKG-INFO
 trainer.egg-info/SOURCES.txt
 trainer.egg-info/dependency_links.txt
